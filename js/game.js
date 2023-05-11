@@ -12,11 +12,11 @@ submit.addEventListener("click", function() {
 
 	// Check if the guess is correct, too low, or too high
 	if (guess === number) {
-		displayResult("Congratulations! You guessed the number!");
+		alert("Congratulations! You guessed the number!");
 	} else if (guess < number) {
-		displayResult("Your guess is too low. Try again.");
+		alert("Your guess is too low. Try again.");
 	} else {
-		displayResult("Your guess is too high. Try again.");
+		alert("Your guess is too high. Try again.");
 	}
 });
 
