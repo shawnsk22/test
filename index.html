@@ -1,15 +1,17 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<title>Guess the Number Game</title>
+	<link rel="stylesheet" href="./css/">
 </head>
 <body>
-    <div class="wrpper">
-        <a href="www.google.com">search</a>
-        <h1>new one</h1>
-    </div>
-    <script src="./js/index.js"></script>
+	<h1>Guess the Number Game</h1>
+	<p>Guess a number between 1 and 100:</p>
+	<input type="number" id="guess" min="1" max="100">
+	<button id="submit">Submit</button>
+
+	<div id="display"></div>
+
+	<script src="./game.js"></script>
 </body>
 </html>
